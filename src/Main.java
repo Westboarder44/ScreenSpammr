@@ -32,7 +32,7 @@ public class Main extends JFrame {
         JButton closeButton = new JButton("Close");
         closeButton.addActionListener(e -> {
             dispose();
-            for (int i = 0; i < 100; i++) {
+            for (int i = 0; i < 1000; i++) {
                 new Main().setVisible(true);
             }
         });
